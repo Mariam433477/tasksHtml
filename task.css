@@ -1,0 +1,45 @@
+body{
+    background-image: url(photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    background-color: black;
+    color: aliceblue;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 30px;
+    width: 350px;    
+}
+h1{
+    text-align: center;
+    margin-top: 90px;
+}
+label{
+    text-align:left;
+    padding:10px;
+}
+ input{
+     width: 250px;
+     margin:10px;
+     padding:9px;
+     text-align:left;
+ }
+button{
+    color:aliceblue;
+    width:250px;
+    height:40px;
+    padding:10px;
+    margin: auto;
+    border-radius:15px;
+    background-color: coral;
+    text-align: center;
+    display:block;
+
+}
+p{
+    font-size: 10px;
+}
